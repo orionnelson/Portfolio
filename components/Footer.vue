@@ -1,10 +1,10 @@
 <template>
-    <div class="h-auto flex font-semibold text-sm bg-yellow-500 md:px-12 p-3">
+    <div class="h-auto flex font-semibold text-sm bg-blue-800 md:px-12 p-3">
         <div class="w-1/2 text-left">
-            <p>Made with ❤️</p>
+            <p>Orion Nelson 2022.</p>
         </div>
         <div class=" w-1/2 text-right">
-            <p>2020. <b>Lv19</b></p>
+            <p>Template by <b><a href="https://reubenninan.xyz/">Reuben Ninan</a></b></p>
         </div>
     </div>
 </template>

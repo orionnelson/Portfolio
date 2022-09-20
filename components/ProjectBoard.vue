@@ -21,58 +21,88 @@ export default {
     data: () => ({
     projects: [
       {
-          imageURL: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-          title: 'Amateur Hour - Developer Podcast',  
-          content: 'A technology focused podcast covering topics such as software development, career advice, and other tips for amateurs like me.',
+          imageURL: 'https://images.unsplash.com/photo-1522659333390-223b26e7bb00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
+          title: 'Drivers Licence Barcode Scanner',
+          content: 'A OpenCV project that extracts information from a drivers licence with a photo of the back.',
           tags : [
-            {name: 'Website', link:'https://anchor.fm/amateur-hour'},
-            {name: 'Listen', link:'https://open.spotify.com/show/6G01A4kQpffGEIH6aw26mb'}
+            {name: 'Read Blog', link:'../blog/opencv-update'},
+            {name: 'Source Code', link:'https://github.com/orionnelson/DlicenceZxingParse'}
           ]
       },
       {
-          imageURL: 'https://images.unsplash.com/photo-1517959105821-eaf2591984ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80',
-          title: 'SodaDB',
-          content: 'A Beginner-Friendly Concurrent Datastore built with Go',
+          imageURL: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1300&q=80',
+          title: 'Shop Unicorn Webstore',
+          content: 'A Webstore Template with a Rating and Review system',
           tags: [
-            {name: 'Source Code', link: 'https://github.com/ReubenMathew/SodaDB'},
-            {name: 'Download', link: 'https://github.com/ReubenMathew/SodaDB/releases/'},
+            {name: 'Source Code', link: 'https://github.com/sidoverflow/shopunicorn'},
+            {name: 'Live Link', link: 'https://unicorn.or9.ca'},
           ],
       },
       {
-          imageURL: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2691&q=80',
-          title: 'Pingo',
-          content: 'A minimalist commandline-interface for ICMP Echo Requests, commonly known as PING.',
+          imageURL: 'https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
+          title: 'Web Requests Scripts',
+          content: 'Find Source Code for Google2Link, Abstractive Predictions and other needs.',
           tags: [
-            {name: 'Source Code', link: 'https://github.com/ReubenMathew/pingo'},
-            {name: 'Download', link: 'https://github.com/ReubenMathew/pingo/releases/'},
+            {name: 'Source Code', link: 'https://github.com/orionnelson/requests-practice'},
+            {name: 'Har2Requests', link: 'https://github.com/louisabraham/har2requests'},
+            {name: 'Download', link: 'https://github.com/orionnelson/requests-practice/releases/'},
           ],
       },
       {
-          imageURL: 'https://images.unsplash.com/photo-1462899006636-339e08d1844e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
-          title: 'FinTech Template',
-          content: 'A business landing page with a modern fintech feel, built with Vue and TailwindCSS',
+          imageURL: 'https://images.unsplash.com/photo-1640552435388-a54879e72b28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
+          title: 'Linux Tutorials',
+          content: "Here's the fix for these issues",
           tags: [
-            {name: 'Source Code', link: 'https://github.com/ReubenMathew/business_template'},
-            {name: 'Live Link', link: 'https://business-template.now.sh/'},
+            {name: 'Overwritten Grub EFI', link: '../blog/opencv-update'},
           ],
       },
       {
-          imageURL: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80',
-          title: 'VennFX',
-          content: 'A cross-platform Venn Diagram desktop application, Built with JavaFX.',
+          imageURL: 'https://or9.ca/images/hdesk.jpg',
+          title: 'Help Desk Application',
+          content: 'A Socket based Support app for helping anonymous clients.',
           tags: [
-            {name: 'Source Code', link: 'https://github.com/ReubenMathew/VennFX'},
-            {name: 'Download', link: 'https://github.com/EECS2311-Team8/SoftwareDevelopmentProject/releases/tag/vF'},
+            {name: 'Source Code', link: 'https://github.com/ReubenMathew/HelpDesk'},
+            {name: 'Live Link', link: 'https://help-desk-psi.vercel.app/'},
           ],
       },
       {
-          imageURL: 'https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
-          title: 'DocScanner',
-          content: 'A simple document scanner utilizing an OpenCV edge detection engine.',
+          imageURL: 'https://images.unsplash.com/photo-1533158307587-828f0a76ef46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
+          title: 'FFMPEG Batch Folder Resizer',
+          content: 'An application to prevent you from uploading your photos to random sites and keeps folder hiarchy.' ,
           tags: [
-            {name: 'Source Code', link: 'https://github.com/ReubenMathew/DocScanner'},
+            {name: 'Source Code', link: 'https://github.com/orionnelson/ffmpeg-resizer'},
+            {name: 'Demo', link: 'https://youtu.be/a2mhB3tGfLU'},
+            {name: 'Download', link: 'https://github.com/orionnelson/ffmpeg-resizer/releases'},
           ],
       },
+      {
+          imageURL: 'https://images.unsplash.com/photo-1606511554594-80a9be4240ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
+          title: 'Wizlight Controller Api',
+          content: 'Connect and Control Multiple Wizlights by Socket or Wireshark HID.',
+          tags: [
+            {name: 'Source Code', link: 'https://github.com/orionnelson/Wizligt-Socket-HID'},
+          ],
+      },
+      {
+          imageURL: 'https://or9.ca/images/srgb.jpg',
+          title: 'SignalRGB AW558 Mouse Plugin',
+          content: 'A SignalRGB plugin made from reverse engineering HID protocols with Wireshark.',
+          tags: [
+            {name: 'Source Code', link: 'https://github.com/orionnelson/AW558-SignalPlugin'},
+          ],
+      },
+      {
+          imageURL: 'https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
+          title: 'Software Design Projects',
+          content: 'A Collection of various software design projects.',
+          tags: [
+            {name: 'Unit Converter', link: 'https://github.com/orionnelson/lab6'},
+            {name: 'Javadoc Example', link: 'https://or9.ca/Lab6/'},
+            {name: 'Soccer App', link: 'https://github.com/orionnelson/football-game'},
+            {name: 'Shape Sorter App', link: 'https://github.com/orionnelson/labw3'},
+          ],
+      },
+
     ]
   })
 }
